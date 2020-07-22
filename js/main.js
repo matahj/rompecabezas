@@ -1,15 +1,14 @@
-/*Programacion de JavaScript*/
 
 var piezas = document.getElementsByClassName('movil');
 
-var tamWidh = [44,44,44,44,44,44,44,44,44,44];
-var tamHeight = [49,49,49,49,49,49,49,49,49,49];
+var tamWidh = [54,54,54,54,54,54,54,54,54,54];
+var tamHeight = [76,76,76,76,76,76,76,76,76,76];
 
 for(var i=0;i<piezas.length;i++){
 	piezas[i].setAttribute("width", tamWidh[i]);
 	piezas[i].setAttribute("height",tamHeight[i]);
-	piezas[i].setAttribute("x", Math.floor((Math.random() * 760) + 50));
-	piezas[i].setAttribute("y", Math.floor((Math.random() * 100) + 521));
+	piezas[i].setAttribute("x", Math.floor( (Math.random()*868) + 54));
+	piezas[i].setAttribute("y", Math.floor( (Math.random()*51) + 608));
 	piezas[i].setAttribute("onmousedown","seleccionarElemento(evt)");
 }
 
@@ -63,8 +62,8 @@ function reordenar(evt){
 	return entorno.lastChild.firstChild;
 }
 
-var origX = [51,817,51,96,591,637,682,727,772,817];   
-var origY = [51,54,101,101,103,103,103,103,103,103];
+var origX = [54,971,54,108,702,756,810,864,918,972];   
+var origY = [76,76,152,152,152,152,152,152,152,152];
 
 function iman(){
 	for(var i=0;i<piezas.length;i++){
