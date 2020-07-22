@@ -67,7 +67,7 @@ var origY = [76,76,152,152,152,152,152,152,152,152];
 
 function iman(){
 	for(var i=0;i<piezas.length;i++){
-		if (Math.abs(currentPosx-origX[i])<10 && Math.abs(currentPosy-origY[i])<10) {
+		if (Math.abs(currentPosx-origX[i])<10 && Math.abs(currentPosy-origY[i])<15) {
 			elementSelect.setAttribute("x",origX[i]);
 			elementSelect.setAttribute("y",origY[i]);
 		}
