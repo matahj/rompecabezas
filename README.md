@@ -4,3 +4,8 @@ Es un rompecabezas de la Tabla Periódica de los elementos químicos, el reto co
 
 https://tablaperiodica.netlify.app/
 
+
+Por mejorar:
+
+- Interactividad
+- Agregar marcador
